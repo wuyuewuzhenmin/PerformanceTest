@@ -12,6 +12,8 @@ from url_http.h5_http_avg import reph5
 from url_http.http_avg import mainaa
 
 
+
+
 # from url_http.wu.Client_interface_modify import mainaa
 
 from url_http.h5_performance import h5_performacn
@@ -42,9 +44,7 @@ def InterfaceClient():
         # print is_data
         aa=mainaa(is_online,int(is_number),str(is_get),str(is_url),str(is_data))
         print aa
-
         return render_template('html/InterfaceClient.html',result =aa)
-
     return render_template('html/InterfaceClient.html')
 
 @app.route('/LoadH5')

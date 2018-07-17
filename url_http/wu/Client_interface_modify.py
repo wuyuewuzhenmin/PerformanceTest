@@ -16,7 +16,7 @@ from lib.dispose_redis import RedisDb
 
 
 
-def mainaa(online,data1,method,path_url,data):
+def mainaa(online,number,method,path_url,data):
     success = 0
     num_time = 0
     consum_time = 0
@@ -26,7 +26,7 @@ def mainaa(online,data1,method,path_url,data):
     # list_users = ['ldq104@163.com', '111111']
     username = list_users[0]
     password = list_users[1]
-    for a in range(data1):
+    for a in range(number):
         print 'pasteer'
 
         if online == "测试环境":
@@ -96,7 +96,7 @@ def mainaa(online,data1,method,path_url,data):
 
 
 # if __name__ == '__main__':
-#     data1=
+#     number=
 #     # anchor_id = 9334224
 #     method = "get"
 #     path_url = "http://106.75.100.161/ticktocks/me"

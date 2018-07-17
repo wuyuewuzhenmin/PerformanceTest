@@ -99,39 +99,4 @@ def reph5(frequency,method,url,data):
             bb = '请查看输入的内容'
             print bb
             return bb.decode('utf-8')
-    #
-    # else:
-    #
-    #     print '该接口是post接口'
-    #     for freq in range(frequency):
-    #         try:
-    #                 #请求前时间
-    #             request_time = datetime.datetime.now()
-    #             print request_time
-    #                 # response = requests.post(url=url, data=json.dumps(data), ).content
-    #             response = requests.post(url=url, data=json.dumps(data), )
-    #             response = json.loads(response)
-    #                 #请求后时间
-    #             response_time = datetime.datetime.now()
-    #             print response_time
-    #                 #打印状态吗
-    #             response_code = response.status_code
-    #             print response_code
-    #             diff_time = (response_time.second- request_time.second)
-    #             print diff_time
-    #         except:
-    #             bb = '请输入正常的接口'
-    #             print bb
-    #         consum_time += diff_time
-    #         success += 1
-    #         num_time += 1
-    #         aa = '第%s 次接口请求成功，耗时%s' % (freq, float(diff_time))
-    #         listaaa.append(aa)
-    #
-    #             # print "第 %s 次接口请求成功,耗时 %s " % (str(num_time), str(diff_time))
-    #         print '第%s 次接口请求成功，耗时%s' %(freq,float(diff_time))
-    #         aa= '第%s 次接口请求成功，耗时%s' %(freq,float(diff_time))
-    #     print "运行完毕,成功运行 %s 次,平均耗时 %sS" % (str(success), str(consum_time / success))
-    #     bb= "运行完毕,成功运行 %s 次,平均耗时 %sS" % (str(success), str(consum_time / success))
-    #     return aa.decode('utf-8')+ '\n'+bb.decode('utf-8')
 
