@@ -47,16 +47,16 @@ def InterfaceClient():
         return render_template('html/InterfaceClient.html',result =aa)
     return render_template('html/InterfaceClient.html')
 
-@app.route('/LoadH5')
+@app.route('/LoadH5',methods=['GET', 'POST'])
 def LoadH5():
-
+    if request.method == "POST":
+        return render_template('html/LoadH5.html', result='该部分暂未开放，待后续优化')
     return render_template('html/LoadH5.html')
 
-@app.route('/LoadClient')
+@app.route('/LoadClient',methods=['GET', 'POST'])
 def LoadClient():
-
-
-
+    if request.method == "POST":
+        return render_template('html/LoadClient.html', result='该部分暂未开放，待后续优化')
     return render_template('html/LoadClient.html')
 
 # h5压测
