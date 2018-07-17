@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07a7a1e4-f934-4cec-b4eb-a43bc3a91a5d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/html/LoadClient.html" afterPath="$PROJECT_DIR$/templates/html/LoadClient.html" />
-    </list>
+    <list default="true" id="07a7a1e4-f934-4cec-b4eb-a43bc3a91a5d" name="Default" comment="" />
     <ignored path="PerformanceTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
