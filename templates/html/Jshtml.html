@@ -1,0 +1,58 @@
+{% entends 'html/Home.html' %}
+
+{% block content %}
+
+<div id="container" style="padding:10px 250px;width: 1200px ;height: auto;background:#41be57">
+      <form  id="form"action="/Home1" method="post">
+
+    <div style="display:flex ;padding: 50px;">
+        <p style="font-size: 20px ;padding:6px">请求环境:</p>
+
+        <select name="is_online" id="tes" onchange="test()" style='width: 130px;height: 40px;margin-right: 50px;padding:19px'>
+            <option value="" disabled selected>请选择请求环境</option>
+            <option value="线上环境">线上环境</option>
+            <option value="测试环境">测试环境</option>
+        </select>
+
+        <p style="font-size: 20px;padding:6px">请求方式:</p>
+        <select name="is_get" id="test" style='width: 130px;height: 40px;'>
+            <option value="" disabled selected>请选择请求方式</option>
+            <option value="GET">GET</option>
+            <option value="POST">POST</option>
+        </select>
+    </div>
+
+        <div style="display:flex ;align-items: center;line-height: 60px;padding-left:40px;font-size: 15px">
+            URL:<input type="text" id="dats" name="URL" form="form1"
+                       style="height: 30px;margin-right: 50px;width: 460px;">
+
+        </div>
+
+        <div style="display:flex ;align-items: center;line-height: 60px;padding-left:30px;font-size: 20px;margin-top: 30px">
+
+            data:<input type="text" id="data1" name="data" form="form1"
+                        style="height: 200px;margin-right: 50px;width: 460px;">
+        </div>
+
+
+
+        <div style="display:flex ;align-items: center;line-height: 60px;padding-left:40px;margin-top:20px ">
+            数量：<input type="text" id="data2" name="number" form="form1"
+                      style="height: 25px;margin-right: 50px;width: 60px;word-break:break-all;">
+            <button name="according" style="height: 25px;margin-right: 50px;width: 200px">显示值为：</button>
+        </div>
+
+          <div>
+              <button type="submit" value="提交" style="line-height: 30px;width: 100px;margin-left:250px;margin-top:2px;">提交</button>
+          </div>
+          </form>
+
+    <div style="float: right">
+        <p style="position: relative;width: 200px;height: auto;overflow-x: auto;">
+            <textarea class="form-control" style="width: 450px;min-height: 240px;margin-top: 10px;">{{result}}</textarea>
+        </p>
+    </div>
+
+</div>
+
+   {% endblock %}

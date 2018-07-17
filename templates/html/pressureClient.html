@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Blued 接口测试 - QA</title>
+
+    <link rel="stylesheet" href="static/layui/css/layui.css">
+    <link rel="stylesheet" href="static/css/global.css">
+    <link rel="stylesheet" href="static/icheck/minimal/red.css">
+    <link rel="stylesheet" href="static/css/Home/H5_interface.css">
+
+    <script type="text/javascript">
+    function checkform (form)
+    {
+        var reg = /^\s*|\s*$/g;
+        var interface_is_online = form.is_online;
+        var interfac_is_get = form.is_get;
+        var interface_URL = form.URL;
+        var interface_data = form.datas;
+        var interface_number = form.number;
+
+         if (interface_is_online.value.replace(reg,"") == "")
+        {
+            alert ("请选择环境");
+            interface_is_online.focus();
+            return false;
+        }
+         else if (interfac_is_get.value.replace(reg,"") == "") {
+             alert("请选择请求方式！");
+             interfac_is_get.focus();
+             return false;
+         }
+
+
+        else if (interface_URL.value.replace(reg,"") == "") {
+             alert("请输入url！");
+             interface_URL.focus();
+             return false;
+         }
+         else if (interfac_is_get.value.replace(reg,"") == "POST" && interface_data.value.replace(reg,"") == "")
+         {
+             alert("请输入data数据");
+             interface_URL.focus();
+             return false;
+         }
+
+        else if (interface_number.value.replace(reg,"") == "") {
+             alert("请输入数量！");
+             interface_number.focus();
+             return false;
+         }
+        else
+        {
+            return true;
+        }
+
+    }
+
+    </script>
+
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+  <div class="layui-header">
+    <div class="layui-logo">Blued-QA专用</div>
+    <!-- 头部区域（可配合blued已有的水平导航） -->
+      <ul class="layui-nav layui-layout-left">
+          <li class="layui-nav-item" ><p style="padding: 0 400px ; font-size: 18px; color: #4dfcff ">压力测试平台</p></li>
+    </ul>
+  </div>
+
+  <div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+      <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+      <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+        <li class="layui-nav-item"><p style="color: #5a80ed;font-size: 21px;padding:0 25px">性能专区</p></li>
+
+          <li class="layui-nav-item">
+          <a class="" href="javascript:;" style="font-size: 18px;margin-left: auto">接口测试</a>
+          <dl class="layui-nav-child">
+            <dd><a href="{{ url_for('InterfaceActivity') }}">H5接口测试</a></dd>
+            <dd><a href="{{ url_for('InterfaceClient') }}">客户端接口测试</a></dd>
+          </dl>
+        </li>
+
+          <li class="layui-nav-item layui-nav-itemed"">
+          <a href="javascript:;" style="font-size: 18px;margin-left: auto">压力测试</a>
+          <dl class="layui-nav-child">
+              <dd><a href="{{ url_for('pressureH5') }}">H5压力测试</a></dd>
+              <dd><a class="layui-this" href="{{ url_for('pressureClient') }}">客户端压力测试</a></dd>
+          </dl>
+        </li>
+
+        <li class="layui-nav-item">
+          <a href="javascript:;" style="font-size: 18px;margin-left: auto">负载测试</a>
+          <dl class="layui-nav-child">
+              <dd><a href="{{ url_for('LoadH5') }}">H5负载测试</a></dd>
+              <dd><a href="{{ url_for('LoadClient') }}">客户端负载测试</a></dd>
+          </dl>
+        </li>
+
+
+        <li class="layui-nav-item">
+                <a href="javascript:;" style="font-size: 18px;margin-left: auto">其他区域</a>
+            </li>
+
+      </ul>
+    </div>
+  </div>
+
+
+  <div>
+        <div id="container" style="width: 500px;margin-left:250px;margin-top:20px;float: left;">
+            <div id="header" style="=background-color: #FFA500;">
+
+                <h2 style="margin-bottom: 0; margin-left: 140px;color: #1878ed;font-size: 22px">客户端压力测试</h2>
+            </div>
+
+            <form  id="form1"action="/pressureClient" method="post" onsubmit="return checkform(this);">
+            <div style="display:flex ;align-items: center;">
+                <p style="line-height: 300%;margin-top: 10px;">请求环境:</p>
+                <select name="is_online" id="tes" onchange="test()" style='width: 130px;height: 40px;margin-right: 50px;margin-top: 15px'>
+                    <option value="" disabled selected>请选择请求环境</option>
+                    <option value="线上环境">线上环境</option>
+                    <option value="测试环境">测试环境</option>
+                </select>
+
+                <p style="line-height: 300%;margin-top: 10px">请求方式:</p>
+                <select name="is_get" id="test" style='width: 130px;height: 40px;margin-top: 15px'>
+                    <option value="" disabled selected>请选择请求方式</option>
+                    <option value="GET">GET</option>
+                    <option value="POST">POST</option>
+                </select>
+            </div>
+
+                <div style="display:flex ;align-items: center;line-height: 60px;margin-top: 15px">
+                    URL:<input type="text" id="dats" name="URL" form="form1"
+                               style="height: 20px;margin-right: 50px;width: 400px">
+
+                </div>
+                <div style="display:flex ;align-items: center;line-height: 60px;margin-top: 15px">
+
+                    data:<input type="text" id="data1" name="datas" form="form1"
+                                style="height: 100px;margin-right: 50px;width: 404px">
+
+
+                </div>
+
+                <div style="display:flex ;align-items: center;line-height: 60px;margin-top: 15px;margin-left: 120px;">
+                    请求数量：<input type="text" id="data2" name="number" form="form1"
+                                  style="height: 20px;margin-right: 50px;width: 60px">
+                    <!--<button name="according" style="width: 180px">显示值为：</button>-->
+                </div>
+                <div>
+                    <button type="submit" value="提交" style="line-height: 30px;width: 100px;margin-left: 150px;margin-top: 15px">提交</button>
+                </div>
+
+            </form>
+
+        </div>
+      <div class="col-lg-6" style="float: left;margin-top:40px;margin-left: 40px;">
+                <div style="text-align: right">
+                    <p style="position:relative;height: auto;overflow-x: auto;">
+                        <textarea class="form-control"
+                                  style="min-height: 350px;margin-top: 2%;width:450px;disabled:disabled ">{{result}}</textarea>
+                    </p>
+                </div>
+            </div>
+    </div>
+
+
+   <div class="layui-footer" style="text-align: center;font-size: 18px;color: #272ded;background:#050e03">
+    <!-- 底部固定区域 -->
+    © QA-质量管理部 - 底部固定区域
+  </div>
+</div>
+<script type="text/javascript" src="static/javascript/jquery.min.js"></script>
+<script type="text/javascript" src="static/layui/layui.js"></script>
+<script type="text/javascript" src="static/icheck/icheck.js"></script>
+<script type="text/javascript" src="static/javascript/dw.js"></script>
+</body>
+</html>

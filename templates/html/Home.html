@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Blued 接口测试 - QA</title>
+
+    <link rel="stylesheet" href="static/layui/css/layui.css">
+    <link rel="stylesheet" href="static/css/global.css">
+    <link rel="stylesheet" href="static/icheck/minimal/red.css">
+    <link rel="stylesheet" href="static/css/Home/H5_interface.css">
+    <script>
+
+        $(document).ready(function () {
+            $("button").click(function () {
+
+                let dats = $("#data").val();
+                if(dats==null||dats==undefined||dats=="")
+                    alert("url不能为空")
+
+                let tes = $("#tes").val();
+
+
+                let test = $("#test").val();
+
+                let data1 = $("#data1").val();
+
+                let data2 = $("#data2").val();
+                if(data2==null||data2==undefined||data2=="")
+                    alert("数量不能为空")
+                $.ajax({
+                    url:"/reph5",
+                    data:{
+                        URL:dats,
+                        data:data1,
+                        number:data2,
+                    },
+                    dataType:'json',
+                    type:"post",
+                    success:function(data) {
+                        if (data.status){
+                            location.href="http://www.baidu.com";
+                        }
+                        else {
+                            alert(data.message)
+                        }
+
+
+                    }
+                });
+
+                console.log("请求环境值为：" + tes, "请求方式:" + test, "url值为：" + data, "data值为" + data1, "数量值为：" + data2)
+            });
+
+        });
+
+    </script>
+
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+  <div class="layui-header">
+    <div class="layui-logo">Blued-QA专用</div>
+    <!-- 头部区域（可配合blued已有的水平导航） -->
+      <ul class="layui-nav layui-layout-left">
+          <li class="layui-nav-item" ><p style="padding: 0 500px ; font-size: 20px; color: #4dfcff ">性能首页</p></li>
+    </ul>
+  </div>
+
+  <div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+      <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+      <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+        <li class="layui-nav-item"><p style="color: #5a80ed;font-size: 21px;padding:0 25px">性能专区</p></li>
+
+          <li class="layui-nav-item">
+          <a class="" href="javascript:;" style="font-size: 18px;margin-left: auto">接口测试</a>
+          <dl class="layui-nav-child">
+            <dd><a href="{{ url_for('InterfaceActivity') }}">H5接口测试</a></dd>
+            <dd><a href="{{ url_for('InterfaceClient') }}">客户端接口测试</a></dd>
+          </dl>
+        </li>
+
+        <li class="layui-nav-item">
+          <a href="javascript:;" style="font-size: 18px;margin-left: auto">压力测试</a>
+          <dl class="layui-nav-child">
+              <dd><a href="{{ url_for('pressureH5') }}">H5压力测试</a></dd>
+              <dd><a href="{{ url_for('pressureClient') }}">客户端压力测试</a></dd>
+          </dl>
+        </li>
+
+        <li class="layui-nav-item">
+          <a href="javascript:;" style="font-size: 18px;margin-left: auto">负载测试</a>
+          <dl class="layui-nav-child">
+              <dd><a href="{{ url_for('LoadH5') }}">H5负载测试</a></dd>
+              <dd><a href="{{ url_for('LoadClient') }}">客户端负载测试</a></dd>
+          </dl>
+        </li>
+
+
+        <li class="layui-nav-item">
+                <a href="javascript:;" style="font-size: 18px;margin-left: auto">其他区域</a>
+            </li>
+
+      </ul>
+    </div>
+  </div>
+
+    <div>
+        <img src="static/img/che.jpeg" alt="hha" width="1200" height="600" style="margin-left: 208px;margin-top: 3px;">
+    </div>
+
+
+
+  <div class="layui-footer" style="text-align: center;font-size: 18px;color: #272ded;background:#050e03">
+    <!-- 底部固定区域 -->
+    © QA-质量管理部 - 底部固定区域
+  </div>
+</div>
+<script type="text/javascript" src="static/javascript/jquery.min.js"></script>
+<script type="text/javascript" src="static/layui/layui.js"></script>
+<script type="text/javascript" src="static/icheck/icheck.js"></script>
+<script type="text/javascript" src="static/javascript/dw.js"></script>
+</body>
+</html>
