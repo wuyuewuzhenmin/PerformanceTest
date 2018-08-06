@@ -12,8 +12,6 @@ from url_http.h5_http_avg import reph5
 from url_http.http_avg import mainaa
 
 
-
-
 # from url_http.wu.Client_interface_modify import mainaa
 
 from url_http.h5_performance import h5_performacn
@@ -22,14 +20,13 @@ app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 
-@app.route('/')
+@app.route('/performance')
 def Home():
     return render_template('html/Home.html')
 
 @app.route('/InterfaceActivity')
 def InterfaceActivity():
     return render_template('html/InterfaceActivityH5.html')
-
 
 # 接口性能
 @app.route('/InterfaceClient',methods=['GET', 'POST'])
@@ -118,9 +115,7 @@ def InterfaceActivityH5():
 
 
 
-
 if __name__ == '__main__':
-
     #部署环境添加两行代码
     from werkzeug.contrib.fixers import ProxyFix
     app.wsgi_app = ProxyFix(app.wsgi_app)
