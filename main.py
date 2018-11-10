@@ -119,8 +119,4 @@ if __name__ == '__main__':
     #部署环境添加两行代码
     from werkzeug.contrib.fixers import ProxyFix
     app.wsgi_app = ProxyFix(app.wsgi_app)
-<<<<<<< HEAD
     app.run(debug=True, port=8011, host='0.0.0.0')
-=======
-    app.run(debug=True, port=8011, host='0.0.0.0')
->>>>>>> 0caf2c79445e0591a8ffcf5863e9b418d25581ea
