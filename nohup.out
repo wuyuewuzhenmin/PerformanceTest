@@ -1,0 +1,1480 @@
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    from url_http.h5_http_avg import reph5
+  File "/data/git/PerformanceTest/url_http/h5_http_avg.py", line 11, in <module>
+    from hashids import Hashids
+ImportError: No module named hashids
+Traceback (most recent call last):
+  File "main.py", line 127, in <module>
+    app.run(debug=True)
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/data/anaconda2/lib/python2.7/site-packages/werkzeug/serving.py", line 795, in run_simple
+    s.bind(get_sockaddr(hostname, port, address_family))
+  File "/data/anaconda2/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [07/Aug/2018 16:07:01] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:07:16] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:07:33] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:12:49] "GET /performance HTTP/1.1" 200 -
+182.50.120.43 - - [07/Aug/2018 16:23:18] "GET /perform HTTP/1.1" 404 -
+182.50.120.43 - - [07/Aug/2018 16:23:33] "GET /perform/performation HTTP/1.1" 404 -
+182.50.120.43 - - [07/Aug/2018 16:23:44] "GET /performation HTTP/1.1" 404 -
+182.50.120.43 - - [07/Aug/2018 16:23:46] "GET /performation HTTP/1.1" 404 -
+10.9.144.16 - - [07/Aug/2018 16:29:07] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:29:35] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:32:59] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:33] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:36] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:38] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:39] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [07/Aug/2018 16:33:46] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:47] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:33:49] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:35:34] "GET /performance HTTP/1.1" 200 -
+182.50.120.43 - - [07/Aug/2018 16:49:21] "GET /perform HTTP/1.1" 404 -
+10.9.144.16 - - [07/Aug/2018 16:54:22] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:54:27] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:54:27] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:23] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:23] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:23] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:23] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:23] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:23] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:24] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:25] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:25] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:25] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:26] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:26] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:27] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:28] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [07/Aug/2018 16:55:29] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:29] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:38] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:40] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:42] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 16:55:43] "GET /pressureClient HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [07/Aug/2018 17:29:42] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 17:29:42] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [07/Aug/2018 17:30:11] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 17:30:21] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 17:31:03] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 17:31:09] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [07/Aug/2018 17:31:10] "GET /LoadClient HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [08/Aug/2018 17:09:59] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:09:59] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:09:59] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:09:59] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:09:59] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:09:59] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:10:00] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:10:00] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:10:00] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:10:00] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:10:00] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:10:00] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:10:00] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:10:00] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Aug/2018 17:10:21] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:26:52] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:16] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:16] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:16] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:16] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:16] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:17] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:17] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:19] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:19] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:19] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:20] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:21] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:21] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 17:27:22] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Aug/2018 18:00:42] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:00:43] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:25:59] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:00] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:00] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:00] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:00] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:00] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:01] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:01] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:01] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:01] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:01] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:01] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:01] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:01] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Aug/2018 18:26:06] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:26:06] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:27:04] "POST /InterfaceActivityH5 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:27:09] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:27:24] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:27:32] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:27:36] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Aug/2018 18:27:52] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:55] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [09/Aug/2018 11:01:56] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:03:19] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:19] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:19] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:19] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:19] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:19] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:20] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:21] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:21] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:21] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:23] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:23] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:23] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:24] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [10/Aug/2018 10:03:36] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:37] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:38] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:41] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:43] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:03:45] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [10/Aug/2018 10:44:08] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [10/Aug/2018 10:44:10] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:44:19] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:44:30] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 10:44:45] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [10/Aug/2018 14:41:09] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 18:16:44] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [15/Aug/2018 18:41:28] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 19:45:54] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 19:48:54] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 19:48:58] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 19:49:31] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 19:49:31] "GET /static/javascript/h5_interface.js HTTP/1.1" 304 -
+10.9.144.16 - - [15/Aug/2018 19:49:42] "POST /InterfaceActivityH5 HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 19:49:50] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 19:49:54] "GET /pressureH5 HTTP/1.1" 200 -
+10 GET http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60
+该接口是get接口
+2018-08-15 19:49:42.266899
+2018-08-15 19:49:42.309043
+401
+0
+第1 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.310075
+2018-08-15 19:49:42.317720
+401
+0
+第2 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.317867
+2018-08-15 19:49:42.324616
+401
+0
+第3 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.324666
+2018-08-15 19:49:42.329591
+401
+0
+第4 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.329624
+2018-08-15 19:49:42.335695
+401
+0
+第5 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.335729
+2018-08-15 19:49:42.341068
+401
+0
+第6 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.341108
+2018-08-15 19:49:42.346076
+401
+0
+第7 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.346107
+2018-08-15 19:49:42.351592
+401
+0
+第8 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.351637
+2018-08-15 19:49:42.356970
+401
+0
+第9 次接口请求成功，耗时0.0
+2018-08-15 19:49:42.357053
+2018-08-15 19:49:42.362408
+401
+0
+第10 次接口请求成功，耗时0.0
+运行完毕,成功运行 10 次,平均耗时 0S
+线上环境 http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60 <type 'unicode'>
+self.s:http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60
+aaaaa:{"code":401,"message":"Verification failed, please log in again","data":[],"request_id":"1090090A6A13745B4013EEA402F92B0B","request_time":1534333802.3034,"response_time":1534333802.3062}
+self.s:http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60
+aaaaa:{"code":401,"message":"Verification failed, please log in again","data":[],"request_id":"1090090A6A13745B4013EEA402FA2B0B","request_time":1534333802.311,"response_time":1534333802.3129}
+self.s:http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60
+aaaaa:{"code":401,"message":"Verification failed, please log in again","data":[],"request_id":"1090090A6A13745B4013EEA402FB2B0B","request_time":1534333802.3171,"response_time":1534333802.319}
+self.s:http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60
+aaaaa:{"code":401,"message":"Verification failed, please log in again","data":[],"request_id":"1090090A6A13745B4013EEA402FC2B0B","request_time":1534333802.3229,"response_time":1534333802.3246}
+self.s:http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60
+aaaaa:{"code":401,"message":"Verification failed, please log in again","data":[],"request_id":"1090090A6A13745B4013EEA402FD2B0B","request_time":1534333802.3287,"response_time":1534333802.3306}
+self.s:http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60
+aaaaa:{"code":401,"message":"Verification failed, please log in again","data":[],"request_id":"1090090A6A13745B4013EEA402FE2B0B","request_time":1534333802.3373,"response_time":1534333802.3388}
+self.s:http://106.75.100.161/users?custom=0%2C2%2C3&cid=0&sort_by=index&longitude=116.470469&scroll_type=0&column=3&latitude=39.899856&filters=%7B%22online%22%3A%221%22%7D&start=0&limit=60
+aaaaa:{"code":401,"message":"Verification failed, please log in again","data":[],"request_id":"1090090A6A13745B4013EEA402FF2B0B","request_time":153433380210.9.144.16 - - [15/Aug/2018 19:50:02] "POST /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [15/Aug/2018 20:21:21] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 11:33:53] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 11:33:54] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 11:33:55] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 11:33:55] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 11:33:55] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 11:33:57] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 11:33:57] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:33] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:34] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:35] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:36] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:36] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:36] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:36] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:36] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:36] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:36] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:36] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:37] "GET /static/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:38] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [16/Aug/2018 13:28:38] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:44] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:44] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:45] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:46] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:47] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:48] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:56] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:56] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:56] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:57] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:58] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:58] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:28:58] "GET /static/javascript/h5_interface.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 13:28:59] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:29:01] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:29:02] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:29:02] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 13:29:03] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:42] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:42] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:42] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:42] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 14:05:42] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 14:05:42] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:43] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:43] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 14:05:43] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 14:05:43] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 14:05:43] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:43] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [16/Aug/2018 14:05:43] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:47] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:05:47] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [16/Aug/2018 14:06:28] "POST /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [16/Aug/2018 14:07:16] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:20:58] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:20:58] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:58] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:58] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:58] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:58] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:58] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:59] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:59] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:59] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:59] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:20:59] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:21:18] "GET / HTTP/1.1" 404 -
+10.9.144.16 - - [17/Aug/2018 11:21:27] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:21:27] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:21:37] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:21:37] "GET /static/javascript/h5_interface.js HTTP/1.1" 304 -
+10.9.144.16 - - [17/Aug/2018 11:21:52] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:57] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:33:58] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [17/Aug/2018 11:34:03] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:34:03] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:34:06] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:34:07] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [17/Aug/2018 11:34:11] "GET /InterfaceActivity HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:09] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [19/Aug/2018 16:59:17] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [19/Aug/2018 17:00:33] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [19/Aug/2018 17:01:30] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [19/Aug/2018 17:01:30] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [19/Aug/2018 17:02:18] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 15:15:14] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:15] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:16] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:16] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:16] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [20/Aug/2018 15:15:34] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 15:15:34] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 15:15:59] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 15:18:07] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 15:18:08] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 15:18:19] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:12:39] "GET /performance HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [20/Aug/2018 18:24:54] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:24:59] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:25:01] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:25:02] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:25:04] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:25:10] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:26:21] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:26:27] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:26:28] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:26:30] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:26:32] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:26:33] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [20/Aug/2018 18:26:34] "GET /LoadClient HTTP/1.1" 200 -
+182.50.120.43 - - [21/Aug/2018 19:40:39] "GET /perform HTTP/1.1" 404 -
+182.50.120.43 - - [21/Aug/2018 19:40:42] "GET /perform HTTP/1.1" 404 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:34] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:35] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:35] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:35] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [22/Aug/2018 19:13:39] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:39] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:40] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:43] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:46] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [22/Aug/2018 19:13:48] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:31] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [28/Aug/2018 11:16:40] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 11:16:45] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:30] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:31] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:32] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:32] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [28/Aug/2018 15:09:32] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [29/Aug/2018 18:41:32] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:33] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [29/Aug/2018 18:41:44] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:45] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:50] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:50] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:41:51] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:42:00] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:42:20] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [29/Aug/2018 18:42:24] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:00] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:01] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:01] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [31/Aug/2018 10:45:15] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:20] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:24] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:25] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 10:45:27] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:50] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:52] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:52] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:52] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:53:55] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 17:54:35] "POST /InterfaceClientClient HTTP/1.1" 404 -
+10.9.144.16 - - [31/Aug/2018 17:55:07] "POST /InterfaceClientClient HTTP/1.1" 404 -
+10.9.144.16 - - [31/Aug/2018 17:55:13] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 17:55:13] "GET /static/javascript/h5_interface.js HTTP/1.1" 304 -
+10.9.144.16 - - [31/Aug/2018 17:55:25] "POST /InterfaceActivityH5 HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 17:55:28] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 17:57:54] "POST /InterfaceClientClient HTTP/1.1" 404 -
+10.9.144.16 - - [31/Aug/2018 17:57:59] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 17:58:08] "POST /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 17:58:12] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 22:05:54] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 22:05:58] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [31/Aug/2018 22:06:03] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [03/Sep/2018 11:22:39] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [03/Sep/2018 11:22:41] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 11:22:52] "POST /InterfaceClientClient HTTP/1.1" 404 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [03/Sep/2018 11:39:57] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 11:40:01] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 11:40:08] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 11:43:04] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 11:43:06] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 15:06:43] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 15:07:02] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 15:07:07] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [03/Sep/2018 15:07:07] "GET /static/javascript/h5_interface.js HTTP/1.1" 304 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 14:59:59] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 15:00:00] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 15:00:00] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 15:00:00] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 15:00:00] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [06/Sep/2018 15:00:06] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 15:00:22] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 15:00:48] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:46] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:47] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:47] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:47] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:47] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [06/Sep/2018 16:14:49] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:49] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:14:54] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:16:14] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:16:28] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:16:38] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:16:45] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:16:52] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [06/Sep/2018 16:17:02] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:29] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:30] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:30] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:30] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [07/Sep/2018 11:48:30] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [12/Sep/2018 17:25:30] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [12/Sep/2018 17:25:30] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [12/Sep/2018 17:25:30] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:30] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:30] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:30] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:30] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:31] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:31] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:31] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:31] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:31] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [12/Sep/2018 17:25:31] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:56] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:57] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:57] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [14/Sep/2018 13:45:57] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [14/Sep/2018 15:10:29] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:29] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:29] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:29] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:29] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:29] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:30] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:31] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:31] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:32] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:33] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:34] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:35] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:10:35] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [14/Sep/2018 15:22:43] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:22:59] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:22:59] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:23:01] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:15] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:15] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:15] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:15] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:15] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:15] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:15] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:18] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:18] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:18] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:18] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:18] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:18] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:19] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [14/Sep/2018 15:58:25] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:58:25] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+method是： GET <type 'str'> https://www.baidu.com
+为get请求
+请检查输入的get请求是否正常
+请检查输入的get请求是否正常
+method是： GET <type 'str'> https://www.baidu.com
+为get请求
+请检查输入的get请求是否正常
+请检查输入的get请求是否正常
+method是： GET <type 'str'> https://argo.blued.cn/live/onairlist?page=1
+为get请求
+code是： 200
+1536217222.209 1536217222.034
+请检查输入的get请求是否正常
+请检查输入的get请求是否正常
+method是： GET <type 'str'> http://106.75.100.161/ticktocks/me
+为get请求
+code是： 405
+第 1 次接口code请求失败,错误信息 {u'code': 405, u'request_time': 1536217248.1098, u'request_id': u'1090090AA0D0905B7206799B02F17305', u'message': u'\u8bf7\u6c42\u7684\u65b9\u6cd5\u4e0d\u652f\u6301', u'data': [], u'response_time': 1536217248.111} 
+code是： 405
+第 2 次接口code请求失败,错误信息 {u'code': 405, u'request_time': 1536217248.1173, u'request_id': u'1090090AA0D0905B7206799B02F27305', u'message': u'\u8bf7\u6c42\u7684\u65b9\u6cd5\u4e0d\u652f\u6301', u'data': [], u'response_time': 1536217248.1184} 
+code是： 405
+第 3 次接口code请求失败,错误信息 {u'code': 405, u'request_time': 1536217248.1236, u'request_id': u'1090090AA0D0905B7206799B02F37305', u'message': u'\u8bf7\u6c42\u7684\u65b9\u6cd5\u4e0d\u652f\u6301', u'data': [], u'response_time': 1536217248.1247} 
+运行完毕,成功运行 3 次,平均耗时 0.0S
+ 第 1 次接口code请求失败,错误信息 {u'code': 405, u'request_time': 1536217248.1098, u'request_id': u'1090090AA0D0905B7206799B02F17305', u'message': u'\u8bf7\u6c42\u7684\u65b9\u6cd5\u4e0d\u652f\u6301', u'data': [], u'response_time': 1536217248.111} 
+ 第 2 次接口code请求失败,错误信息 {u'code': 405, u'request_time': 1536217248.1173, u'request_id': u'1090090AA0D0905B7206799B02F27305', u'message': u'\u8bf7\u6c42\u7684\u65b9\u6cd5\u4e0d\u652f\u6301', u'data': [], u'response_time': 1536217248.1184} 
+ 第 3 次接口code请求失败,错误信息 {u'code': 405, u'request_time': 1536217248.1236, u'request_id': u'1090090AA0D0905B7206799B02F37305', u'message': u'\u8bf7\u6c42\u7684\u65b9\u6cd5\u4e0d\u652f\u6301', u'data': [], u'response_time': 1536217248.1247} 
+
+运行完毕,成功运行 3 次,平均耗时 0.0S
+method是： GET <type 'str'> http://106.75.100.161/users/live/recommend?size=15
+为get请求
+code是： 200
+1536221774.37 1536221774.34
+0.0309000015259
+运行完毕,成功运行 1 次,平均耗时 0.0309000015259S
+ 第 1 次接口请求成功,耗时 0.0309000015259 
+
+运行完毕,成功运行 1 次,平均耗时 0.0309000015259S
+method是： GET <type 'str'> http://106.75.100.161/users/live/recommend?size=15
+为get请求
+code是： 200
+1536221788.07 1536221788.04
+0.030699968338
+code是： 200
+1536221788.1 1536221788.07
+0.0308001041412
+code是： 200
+1536221788.14 1536221788.11
+0.0293998718262
+code是： 200
+1536221788.18 1536221788.14
+0.0313000679016
+code是： 200
+1536221788.21 1536221788.18
+0.0290999412537
+code是： 200
+1536221788.25 1536221788.22
+0.0302000045776
+code是： 200
+1536221788.28 1536221788.25
+0.0297999382019
+code是： 200
+1536221788.32 1536221788.29
+0.0293998718262
+code是： 200
+1536221788.36 1536221788.32
+0.0329999923706
+code是： 200
+1536221788.39 1536221788.36
+0.0311999320984
+运行完毕,成功运行 10 次,平均耗时 0.0304899692535S
+ 第 1 次接口请求成功,耗时 0.030699968338 
+ 第 2 次接口请求成功,耗时 0.0308001041412 
+ 第 3 次接口请求成功,耗时 0.0293998718262 
+ 第 4 次接口请求成功,耗时 0.0313000679016 
+ 第 5 次接口请求成功,耗时 0.0290999412537 
+ 第 6 次接口请求成功,耗时 0.0302000045776 
+ 第 7 次接口请求成功,耗时 0.0297999382019 
+ 第 8 次接口请求成功,耗时 0.0293998718262 
+ 第 9 次接口请求成功,耗时 0.0329999923706 
+ 第 10 次接口请求成功,耗时 0.0311999320984 
+
+运行完毕,成功运行 10 次,平均耗时 0.0304899692535S
+10 GET https://www.baidu.com
+该接口是get接口
+2018-09-14 15:58:54.772453
+2018-09-14 15:58:54.929483
+200
+0
+第1 次接口请求成功�10.9.144.16 - - [14/Sep/2018 15:58:56] "POST /InterfaceActivityH5 HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:59:04] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:59:06] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [14/Sep/2018 15:59:08] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [18/Sep/2018 16:43:21] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:22] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:23] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:23] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:23] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [18/Sep/2018 16:43:24] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [18/Sep/2018 16:43:25] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [18/Sep/2018 16:43:36] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [18/Sep/2018 16:44:23] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [19/Sep/2018 20:24:17] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [25/Sep/2018 14:12:14] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:14] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:14] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:14] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:17] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:17] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:17] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:17] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:17] "GET /static/layui/lay/modules/jquery.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:20] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [25/Sep/2018 14:12:20] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:20] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:30] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:30] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:31] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:31] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:40] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:12:46] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:13:02] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:13:33] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 14:13:41] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:34] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:34] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:34] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:34] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:34] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:34] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:35] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:36] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:36] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:36] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:05:37] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:00] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:01] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:01] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:01] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:01] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [25/Sep/2018 18:29:05] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:05] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:05] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:05] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:05] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:05] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:06] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:06] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:06] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:08] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:08] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:08] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:08] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:08] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:10] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:10] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:11] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:11] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:11] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:11] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:11] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:11] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:14] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:14] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:14] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:14] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:14] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:14] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:14] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:17] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:17] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:17] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:17] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:17] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:17] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:18] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:20] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:20] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:20] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:20] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:20] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:20] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Sep/2018 18:29:20] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:21] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [26/Sep/2018 17:56:34] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:34] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:42] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:44] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:45] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:47] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:50] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:52] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:54] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:56:57] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:57:46] "POST /InterfaceActivityH5 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/data/anaconda2/lib/python2.7/site-packages/werkzeug/contrib/fixers.py", line 152, in __call__
+    return self.app(environ, start_response)
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/data/anaconda2/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/data/git/PerformanceTest/main.py", line 109, in InterfaceActivityH5
+    cc=reph5(int(is_number),is_get,is_url,is_data)
+  File "/data/git/PerformanceTest/url_http/h5_http_avg.py", line 68, in reph5
+    data = json.loads(data)
+  File "/data/anaconda2/lib/python2.7/json/__init__.py", line 339, in loads
+    return _default_decoder.decode(s)
+  File "/data/anaconda2/lib/python2.7/json/decoder.py", line 364, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/data/anaconda2/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+10.9.144.16 - - [26/Sep/2018 17:57:46] "GET /InterfaceActivityH5?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:57:46] "GET /InterfaceActivityH5?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:57:46] "GET /InterfaceActivityH5?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:57:46] "GET /InterfaceActivityH5?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:57:46] "GET /InterfaceActivityH5?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.9.144.16 - - [26/Sep/2018 17:57:46] "GET /InterfaceActivityH5?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:19] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:19] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:20] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:20] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:20] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:20] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:20] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:21] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:21] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:21] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:22] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [29/Sep/2018 16:51:22] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [29/Sep/2018 16:51:23] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [29/Sep/2018 16:51:23] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [30/Sep/2018 16:43:02] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [30/Sep/2018 16:43:03] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [30/Sep/2018 16:44:04] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:16] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:17] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:17] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:17] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [05/Oct/2018 22:04:20] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:26] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:28] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:30] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:41] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:42] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:42] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:42] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [05/Oct/2018 22:04:44] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Oct/2018 11:40:20] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Oct/2018 11:40:20] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Oct/2018 11:40:20] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Oct/2018 11:40:20] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Oct/2018 11:40:20] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Oct/2018 11:40:20] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Oct/2018 11:40:20] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [08/Oct/2018 11:40:21] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Oct/2018 11:40:21] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Oct/2018 11:40:21] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Oct/2018 11:40:21] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Oct/2018 11:40:21] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Oct/2018 11:40:21] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Oct/2018 11:40:21] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Oct/2018 11:54:36] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:09] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:09] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:09] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:09] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:09] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:09] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:09] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:10] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:10] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:10] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:10] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:10] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:10] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [10/Oct/2018 15:57:10] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:13] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [12/Oct/2018 15:59:17] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:17] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:26] "POST /InterfaceActivityH5 HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:42] "POST /InterfaceActivityH5 HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:46] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 15:59:54] "POST /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 16:07:04] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 16:07:07] "GET /InterfaceActivity HTTP/1.1" 200 -
+�耗时0.0
+2018-09-14 15:58:54.929575
+2018-09-14 15:58:55.064049
+200
+1
+第2 次接口请求成功，耗时1.0
+2018-09-14 15:58:55.064102
+2018-09-14 15:58:55.200022
+200
+0
+第3 次接口请求成功，耗时0.0
+2018-09-14 15:58:55.200107
+2018-09-14 15:58:55.350508
+200
+0
+第4 次接口请求成功，耗时0.0
+2018-09-14 15:58:55.350555
+2018-09-14 15:58:55.502282
+200
+0
+第5 次接口请求成功，耗时0.0
+2018-09-14 15:58:55.502330
+2018-09-14 15:58:55.663938
+200
+0
+第6 次接口请求成功，耗时0.0
+2018-09-14 15:58:55.664003
+2018-09-14 15:58:55.867781
+200
+0
+第7 次接口请求成功，耗时0.0
+2018-09-14 15:58:55.867851
+2018-09-14 15:58:56.010548
+200
+1
+第8 次接口请求成功，耗时1.0
+2018-09-14 15:58:56.010598
+2018-09-14 15:58:56.161034
+200
+0
+第9 次接口请求成功，耗时0.0
+2018-09-14 15:58:56.161081
+2018-09-14 15:58:56.306227
+200
+0
+第10 次接口请求成功，耗时0.0
+运行完毕,成功运行 10 次,平均耗时 0S
+method是： GET <type 'str'> https://106.75.64.129/users?from=list&latitude=39.89985243055555&limit=60&longitude=116.4705954318576&sort_by=home_live&start=0
+为get请求
+code是： 400
+第 1 次接口code请求失败,错误信息 {u'code': 400, u'request_time': 1537260215.9731, u'request_id': u'c087bd55517ad02ff88a67462710a138', u'message': u'\u975e\u6cd5\u8bf7\u6c42', u'data': [], u'response_time': 1537260215.9817} 
+code是： 400
+第 2 次接口code请求失败,错误信息 {u'code': 400, u'request_time': 1537260216.0076, u'request_id': u'ee23f2bd5a38a5b39529b054b65f8d3b', u'message': u'\u975e\u6cd5\u8bf7\u6c42', u'data': [], u'response_time': 1537260216.0262} 
+运行完毕,成功运行 2 次,平均耗时 0.0S
+ 第 1 次接口code请求失败,错误信息 {u'code': 400, u'request_time': 1537260215.9731, u'request_id': u'c087bd55517ad02ff88a67462710a138', u'message': u'\u975e\u6cd5\u8bf7\u6c42', u'data': [], u'response_time': 1537260215.9817} 
+ 第 2 次接口code请求失败,错误信息 {u'code': 400, u'request_time': 1537260216.0076, u'request_id': u'ee23f2bd5a38a5b39529b054b65f8d3b', u'message': u'\u975e\u6cd5\u8bf7\u6c42', u'data': [], u'response_time': 1537260216.0262} 
+
+运行完毕,成功运行 2 次,平均耗时 0.0S
+method是： GET <type 'str'> https://106.75.64.129/users?from=list&latitude=39.89985243055555&limit=60&longitude=116.4705954318576&sort_by=home_live&start=0
+为get请求
+code是： 400
+第 1 次接口code请求失败,错误信息 {u'code': 400, u'request_time': 1537260263.3552, u'request_id': u'eaff44cef7287457d731882e601e7ad1', u'message': u'\u975e\u6cd5\u8bf7\u6c42', u'data': [], u'response_time': 1537260263.4071} 
+运行完毕,成功运行 1 次,平均耗时 0.0S
+ 第 1 次接口code请求失败,错误信息 {u'code': 400, u'request_time': 1537260263.3552, u'request_id': u'eaff44cef7287457d731882e601e7ad1', u'message': u'\u975e\u6cd5\u8bf7\u6c42', u'data': [], u'response_time': 1537260263.4071} 
+
+运行完毕,成功运行 1 次,平均耗时 0.0S
+4 POST http://common.blued.com/?action=game_wawa
+该接口是post接口
+s <type 'unicode'>
+1 GET ttps://activity-test.blued.cn/hd/2018-national/lottery/KxyeNQ/1
+该接口是get接口
+2018-10-12 15:59:26.848212
+请输入正常的接口
+1 GET ttps://activity-test.blued.cn/hd/2018-national/lottery/KxyeNQ/1
+该接口是get接口
+2018-10-12 15:59:42.383114
+请输入正常的接口
+method是： GET <type 'str'> ttps://activity-test.blued.cn/hd/2018-national/lottery/KxyeNQ/1
+为get请求
+请检查输入的get请求是否正常
+请检查输入的get请求是否正常
+10 GET https://activity-test.blued.cn/hd/2018-national/lottery/KxyeNQ/1
+该接口是get接口
+2018-10-12 16:07:27.061878
+2018-10-12 16:07:27.100285
+200
+0
+第1 次接口请求成功，耗时0.0
+2018-10-12 16:07:27.100326
+2018-10-12 16:07:27.130699
+200
+0
+第2 次接口请求成功，耗时0.0
+2018-10-12 16:07:27.130743
+2018-10-12 16:07:27.163601
+200
+0
+第3 次接口请求成功，耗时0.0
+2018-10-12 16:07:27.163646
+2018-10-12 16:07:27.195393
+200
+0
+第4 次接口请求成功，耗时0.0
+2018-10-12 16:07:27.195454
+2018-10-12 16:07:27.226134
+200
+0
+第5 次接口请求10.9.144.16 - - [12/Oct/2018 16:07:27] "POST /InterfaceActivityH5 HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 16:09:17] "POST /InterfaceActivityH5 HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:51] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:51] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:51] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:51] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:51] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:51] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:51] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:52] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:52] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:52] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:53] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [12/Oct/2018 20:56:53] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [12/Oct/2018 20:56:54] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:54] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [12/Oct/2018 20:56:55] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:55] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:56] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:56:58] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [12/Oct/2018 20:57:00] "GET /LoadH5 HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:04] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:05] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:05] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:05] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:05] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:05] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [25/Oct/2018 14:18:05] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:05] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:06] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:06] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [25/Oct/2018 14:18:11] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:11] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:11] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:11] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:11] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:11] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:12] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:12] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:12] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:12] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:12] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [25/Oct/2018 14:18:20] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:20] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:21] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:21] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:21] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [25/Oct/2018 14:18:22] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:24] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:24] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:36] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:36] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:36] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:51] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:53] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:18:59] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:27:13] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:27:25] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:27:27] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:27:27] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:27:29] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:27:30] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 14:27:31] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 16:11:47] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [25/Oct/2018 16:11:47] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:16] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:17] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [02/Nov/2018 14:49:22] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:22] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:24] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:27] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:49:31] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:48] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:49] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:49] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:49] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:49] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [02/Nov/2018 14:51:49] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:42] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:43] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:43] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:43] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Nov/2018 15:06:45] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:45] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:47] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:49] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:50] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:52] "GET /LoadClient HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 15:06:55] "GET /LoadH5 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:35:47] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:35:47] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:47] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:47] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:47] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:47] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:47] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:48] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:48] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:48] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:48] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:48] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:35:48] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [08/Nov/2018 17:36:24] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:24] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:24] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:24] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:24] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:24] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:24] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:25] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:25] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:25] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:25] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:25] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:25] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:25] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Nov/2018 17:36:26] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:27] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Nov/2018 17:36:28] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:36:28] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:01] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:02] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:02] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:02] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [08/Nov/2018 17:55:02] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [08/Nov/2018 17:55:06] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:08] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:09] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:09] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [09/Nov/2018 15:11:09] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 -
+10.9.144.16 - - [09/Nov/2018 15:11:09] "GET /apple-touch-icon.png HTTP/1.1" 404 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:26] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:26:27] "GET /favicon.ico HTTP/1.1" 404 -
+10.9.144.16 - - [10/Nov/2018 14:46:49] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:46:52] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:46:52] "GET /static/javascript/h5_interface.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:46:54] "GET /InterfaceClient HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:46:55] "GET /InterfaceActivity HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:47:27] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:47:30] "GET /pressureH5 HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 14:47:30] "GET /pressureClient HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/layui/css/layui.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/css/global.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/icheck/minimal/red.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/css/Home/H5_interface.css HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/javascript/jquery.min.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/img/che.jpeg HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/layui/layui.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/javascript/dw.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/icheck/icheck.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/layui/lay/modules/element.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:25:17] "GET /favicon.ico HTTP/1.1" 404 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/layui/css/layui.css HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/css/global.css HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/icheck/minimal/red.css HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/css/Home/H5_interface.css HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/javascript/jquery.min.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/img/che.jpeg HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/layui/layui.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/icheck/icheck.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/javascript/dw.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/layui/lay/modules/element.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/layui/lay/modules/layer.js HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:52] "GET /static/layui/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1" 304 -
+10.9.144.16 - - [10/Nov/2018 17:51:55] "GET /performance HTTP/1.1" 200 -
+ * Running on http://0.0.0.0:8011/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 315-010-563
+10.9.144.16 - - [10/Nov/2018 17:53:00] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:53:26] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:53:26] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:53:26] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:53:28] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:53:30] "GET /performance HTTP/1.1" 200 -
+10.9.144.16 - - [10/Nov/2018 17:53:37] "GET /performance HTTP/1.1" 200 -
